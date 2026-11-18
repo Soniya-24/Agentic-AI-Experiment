@@ -1,0 +1,21 @@
+{
+  "rule_version": "1.0",
+  "company": "Orbit Infosystems (service company)",
+  "role": "Software Engineer Trainee",
+  "criteria": {
+    "aptitude_score": 40,
+    "coding_score": 25,
+    "cgpa": 25,
+    "project_score": 10
+  },
+  "thresholds": {
+    "shortlist_review": 70,
+    "manual_review": 45
+  },
+  "eligibility": {
+    "min_cgpa": 5.5,
+    "max_active_backlogs": 1,
+    "allowed_branches": ["CS", "IT", "AIDS", "ENTC", "EXTC", "MECH", "CIVIL"]
+  },
+  "notes": "Second fictional company: aptitude-heavy screening, wider branch eligibility, tolerates one active backlog."
+}

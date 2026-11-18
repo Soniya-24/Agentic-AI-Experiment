@@ -1,0 +1,18 @@
+{
+  "coordinator1": {
+    "role": "PLACEMENT_COORDINATOR",
+    "password_hash": "adcaac0967ee591d44d3626a734341ee$7eca1937c53f53b76595efb85256e90101dac24bf3de64a1acc80f46af013954"
+  },
+  "coordinator2": {
+    "role": "PLACEMENT_COORDINATOR",
+    "password_hash": "dc0392bc968b8fe76ca9818b7a89c4c5$3b5fd7bd617843dad6084d03cc776ed12839192dd7e1aa0c9d1adb95f6b5d17e"
+  },
+  "admin": {
+    "role": "ADMIN",
+    "password_hash": "e24be6cad953ab7f71181b7b8fed2714$2672890d9b0340a495ea0f8450f91e2a4d1af53a1361407e9f2c9db77b0d2936"
+  },
+  "viewer": {
+    "role": "VIEWER",
+    "password_hash": "90ec51011833ccdab28edb0dc782a7b9$95a5351d7ad81acdbd79f032f795bd412680e6cf2703180e9e6f7d13099b16fc"
+  }
+}

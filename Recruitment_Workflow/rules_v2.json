@@ -1,0 +1,21 @@
+{
+  "rule_version": "1.1",
+  "company": "Nimbus Technologies (product company)",
+  "role": "Software Engineer Trainee",
+  "criteria": {
+    "coding_score": 30,
+    "aptitude_score": 20,
+    "cgpa": 25,
+    "project_score": 25
+  },
+  "thresholds": {
+    "shortlist_review": 75,
+    "manual_review": 50
+  },
+  "eligibility": {
+    "min_cgpa": 6.0,
+    "max_active_backlogs": 0,
+    "allowed_branches": ["CS", "IT", "AIDS", "ENTC", "EXTC"]
+  },
+  "notes": "Variation: less weight on timed tests, more on academics and projects. Used to compare two rule versions."
+}

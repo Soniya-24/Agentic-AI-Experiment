@@ -1,0 +1,21 @@
+{
+  "rule_version": "1.0",
+  "company": "Nimbus Technologies (product company)",
+  "role": "Software Engineer Trainee",
+  "criteria": {
+    "coding_score": 35,
+    "aptitude_score": 25,
+    "cgpa": 20,
+    "project_score": 20
+  },
+  "thresholds": {
+    "shortlist_review": 75,
+    "manual_review": 50
+  },
+  "eligibility": {
+    "min_cgpa": 6.0,
+    "max_active_backlogs": 0,
+    "allowed_branches": ["CS", "IT", "AIDS", "ENTC", "EXTC"]
+  },
+  "notes": "Only documented, job-related criteria are scored. Gender, caste, religion, age, address, name and photo are never inputs. cgpa is converted to a 0-100 scale (cgpa x 10)."
+}
