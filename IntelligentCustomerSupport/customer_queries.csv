@@ -1,0 +1,17 @@
+query_id,customer_id,query_text,product,created_at
+Q001,C101,I cannot log in to my account and my netbanking password is locked,CoreBanking,2026-10-20 09:00:00
+Q002,C102,What features and interest rates are included in the basic plan savings account?,CoreBanking,2026-10-20 09:10:00
+Q003,C103,I noticed a double charge on my credit card statement and I was charged twice for the same purchase,CreditCards,2026-10-20 09:15:00
+Q004,C104,The application is down for all our users and server error across digital channels,CoreBanking,2026-10-20 09:20:00
+Q005,C105,Can you please add dark mode and fingerprint login as a new feature to the mobile app?,MobileApp,2026-10-20 09:25:00
+Q006,C106,The report export fails with an internal server error while generating tax summaries,CoreBanking,2026-10-20 09:30:00
+Q007,C107,Urgent security incident: unauthorized transaction and possible data breach on corporate debit card,Security,2026-10-20 09:32:00
+Q008,C108,How do I submit my address update and documents for KYC re-verification?,AccountServicing,2026-10-20 09:35:00
+Q009,C109,ATM cash not dispensed but money debited from savings account at airport kiosk,CardServices,2026-10-20 09:40:00
+Q010,C110,The issue is still unresolved and previous support ticket steps did not work,Disputes,2026-10-20 09:45:00
+Q011,C111,Can I open a high-yield physical gold bullion storage account with international vault transfer?,WealthManagement,2026-10-20 09:50:00
+Q012,C112,It is not working.,CoreBanking,2026-10-20 09:55:00
+Q013,C113,   ,MobileApp,2026-10-20 10:00:00
+Q001,C114,Duplicate attempt: cannot log in to account,CoreBanking,2026-10-20 10:05:00
+Q015,C115,Emergency: immediate card block required after unauthorized swipe notification received,Fraud,2026-10-20 10:10:00
+Q016,C116,What are the annual fees and minimum balance for basic plan?,CoreBanking,2026-10-20 10:15:00

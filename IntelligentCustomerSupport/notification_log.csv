@@ -1,0 +1,69 @@
+timestamp,notification_id,ticket_id,event,recipient,attempt,status,message,error
+2026-10-28T14:59:01.536211+00:00,NOTIF-9FE457BC,TKT-2436FA44,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-2436FA44 has been created and assigned to triage.,
+2026-10-28T14:59:01.545792+00:00,NOTIF-FC88F81A,TKT-A6F2651E,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-A6F2651E has been created and assigned to triage.,
+2026-10-28T14:59:01.557745+00:00,NOTIF-FA9C91CD,TKT-8DF0C2D1,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-8DF0C2D1 has been created and assigned to triage.,
+2026-10-28T14:59:01.569164+00:00,NOTIF-78E5E1BB,TKT-F40C872E,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-F40C872E has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T14:59:01.576737+00:00,NOTIF-B1AED812,TKT-984CD6C3,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-984CD6C3 has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T14:59:01.588773+00:00,NOTIF-9ADEE281,TKT-693A7E99,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-693A7E99 has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T14:59:01.602051+00:00,NOTIF-FE12C605,TKT-9369FF0B,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-9369FF0B has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T14:59:01.615186+00:00,NOTIF-F9CEAF4A,TKT-A4A847BF,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-A4A847BF has been created and assigned to triage.,
+2026-10-28T14:59:01.624593+00:00,NOTIF-273DC581,TKT-20697B39,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-20697B39 has been created and assigned to triage.,
+2026-10-28T14:59:01.634417+00:00,NOTIF-AC3D1E98,TKT-C329D1E9,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-C329D1E9 has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T14:59:01.641690+00:00,NOTIF-731330E9,TKT-A7173617,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-A7173617 has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T14:59:01.652861+00:00,NOTIF-21DCDF36,TKT-4693D8F1,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-4693D8F1 has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T14:59:01.660984+00:00,NOTIF-4347D143,TKT-487D4B80,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-487D4B80 has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T14:59:01.670928+00:00,NOTIF-898BDD19,TKT-4BBA8912,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-4BBA8912 has been created and assigned to triage.,
+2026-10-28T14:59:19.022244+00:00,NOTIF-0CB414C6,TKT-TC11,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-TC11 has been created and assigned to triage.,
+2026-10-28T14:59:19.024274+00:00,NOTIF-559A8F90,TKT-TC12,CREATED,customer@example.com,1,RETRYING,Banking Support Ticket TKT-TC12 has been created and assigned to triage.,Simulated provider timeout
+2026-10-28T14:59:19.025802+00:00,NOTIF-559A8F90,TKT-TC12,CREATED,customer@example.com,2,RETRYING,Banking Support Ticket TKT-TC12 has been created and assigned to triage.,Simulated provider timeout
+2026-10-28T14:59:19.028522+00:00,NOTIF-559A8F90,TKT-TC12,CREATED,customer@example.com,3,SENT,Banking Support Ticket TKT-TC12 has been created and assigned to triage.,
+2026-10-28T14:59:19.033267+00:00,NOTIF-9C64CB5E,TKT-TC13,CREATED,customer@example.com,1,RETRYING,Banking Support Ticket TKT-TC13 has been created and assigned to triage.,Permanent network down
+2026-10-28T14:59:19.035068+00:00,NOTIF-9C64CB5E,TKT-TC13,CREATED,customer@example.com,2,RETRYING,Banking Support Ticket TKT-TC13 has been created and assigned to triage.,Permanent network down
+2026-10-28T14:59:19.036678+00:00,NOTIF-9C64CB5E,TKT-TC13,CREATED,customer@example.com,3,FAILED,Banking Support Ticket TKT-TC13 has been created and assigned to triage.,Permanent network down
+2026-10-28T14:59:19.051734+00:00,NOTIF-65C9DBA4,TKT-TC20,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-TC20 has been created and assigned to triage.,
+2026-10-28T14:59:19.053264+00:00,NOTIF-65C9DBA4,TKT-TC20,CREATED,customer@example.com,0,SKIPPED_DUPLICATE,Banking Support Ticket TKT-TC20 has been created and assigned to triage.,Duplicate notification event suppressed via idempotency key
+2026-10-28T15:26:35.371648+00:00,NOTIF-A64A092D,TKT-TC11,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-TC11 has been created and assigned to triage.,
+2026-10-28T15:26:35.374328+00:00,NOTIF-E41D2CBE,TKT-TC12,CREATED,customer@example.com,1,RETRYING,Banking Support Ticket TKT-TC12 has been created and assigned to triage.,Simulated provider timeout
+2026-10-28T15:26:35.375601+00:00,NOTIF-E41D2CBE,TKT-TC12,CREATED,customer@example.com,2,RETRYING,Banking Support Ticket TKT-TC12 has been created and assigned to triage.,Simulated provider timeout
+2026-10-28T15:26:35.376619+00:00,NOTIF-E41D2CBE,TKT-TC12,CREATED,customer@example.com,3,SENT,Banking Support Ticket TKT-TC12 has been created and assigned to triage.,
+2026-10-28T15:26:35.378633+00:00,NOTIF-FF276570,TKT-TC13,CREATED,customer@example.com,1,RETRYING,Banking Support Ticket TKT-TC13 has been created and assigned to triage.,Permanent network down
+2026-10-28T15:26:35.379959+00:00,NOTIF-FF276570,TKT-TC13,CREATED,customer@example.com,2,RETRYING,Banking Support Ticket TKT-TC13 has been created and assigned to triage.,Permanent network down
+2026-10-28T15:26:35.382402+00:00,NOTIF-FF276570,TKT-TC13,CREATED,customer@example.com,3,FAILED,Banking Support Ticket TKT-TC13 has been created and assigned to triage.,Permanent network down
+2026-10-28T15:26:35.393171+00:00,NOTIF-B8347BC3,TKT-TC20,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-TC20 has been created and assigned to triage.,
+2026-10-28T15:26:35.394194+00:00,NOTIF-B8347BC3,TKT-TC20,CREATED,customer@example.com,0,SKIPPED_DUPLICATE,Banking Support Ticket TKT-TC20 has been created and assigned to triage.,Duplicate notification event suppressed via idempotency key
+2026-10-28T15:29:39.413451+00:00,NOTIF-88325A86,TKT-F40C872E,RESOLVED,customer@example.com,1,SENT,Ticket TKT-F40C872E has been resolved. Summary: Critical priority fraud/security incident routed for immediate manual triage.,
+2026-10-28T15:29:40.948305+00:00,NOTIF-1EF11DDE,TKT-9369FF0B,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-9369FF0B has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T15:29:44.537384+00:00,NOTIF-49E717D1,TKT-9369FF0B,RESOLVED,customer@example.com,1,SENT,Ticket TKT-9369FF0B has been resolved. Summary: Critical priority fraud/security incident routed for immediate manual triage.,
+2026-10-28T15:30:11.925754+00:00,NOTIF-6B4D6BAB,TKT-487D4B80,RESOLVED,customer@example.com,1,SENT,Ticket TKT-487D4B80 has been resolved. Summary: Critical priority fraud/security incident routed for immediate manual triage.,
+2026-10-28T15:30:21.642297+00:00,NOTIF-9B6E143A,TKT-84934016,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-84934016 has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T15:30:23.818967+00:00,NOTIF-1402AA1E,TKT-84934016,RESOLVED,customer@example.com,1,SENT,Ticket TKT-84934016 has been resolved. Summary: Awaiting human review,
+2026-10-28T15:37:38.982479+00:00,NOTIF-49CA05D3,TKT-2436FA44,RESOLVED,customer@example.com,1,SENT,"Ticket TKT-2436FA44 has been resolved. Summary: To unlock your digital banking access, navigate to the secure login page, select 'Forgot Password / Unlock Account', and verify your identity using your registered mobile number and Debit Card details. If your access remains blocked after 3 attempts, contact customer assistance at 1800-BANK-SECURE.",
+2026-10-28T15:37:47.764499+00:00,NOTIF-D430C228,TKT-8DF0C2D1,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-8DF0C2D1 has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T15:37:52.001919+00:00,NOTIF-DDD40045,TKT-693A7E99,RESOLVED,customer@example.com,1,SENT,Ticket TKT-693A7E99 has been resolved. Summary: High complexity technical issue routed for investigation.,
+2026-10-28T15:38:14.318669+00:00,NOTIF-D643E7CF,TKT-20697B39,RESOLVED,customer@example.com,1,SENT,Ticket TKT-20697B39 has been resolved. Summary: Insufficient details provided by customer; clarification requested.,
+2026-10-28T15:38:20.550398+00:00,NOTIF-D8BF5381,TKT-C329D1E9,RESOLVED,customer@example.com,1,SENT,Ticket TKT-C329D1E9 has been resolved. Summary: High complexity technical issue routed for investigation.,
+2026-10-28T15:38:24.725221+00:00,NOTIF-EDF3D746,TKT-4693D8F1,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-4693D8F1 has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T15:38:25.963250+00:00,NOTIF-11250B25,TKT-4693D8F1,RESOLVED,customer@example.com,1,SENT,Ticket TKT-4693D8F1 has been resolved. Summary: High complexity technical issue routed for investigation.,
+2026-10-28T16:57:30.900196+00:00,NOTIF-D593FDC1,TKT-FE955037,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-FE955037 has been created and assigned to triage.,
+2026-10-28T16:57:30.907053+00:00,NOTIF-46B9B356,TKT-37EEAE54,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-37EEAE54 has been created and assigned to triage.,
+2026-10-28T16:57:30.915556+00:00,NOTIF-BB599014,TKT-90B48343,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-90B48343 has been created and assigned to triage.,
+2026-10-28T16:57:30.923810+00:00,NOTIF-AAAAAE4B,TKT-C7E89E90,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-C7E89E90 has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T16:57:30.934749+00:00,NOTIF-62607704,TKT-85481CCE,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-85481CCE has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T16:57:30.942467+00:00,NOTIF-2C7B8C2D,TKT-62FDC994,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-62FDC994 has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T16:57:30.950550+00:00,NOTIF-FDD022EC,TKT-57EC82E9,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-57EC82E9 has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T16:57:30.957361+00:00,NOTIF-65529643,TKT-513F5003,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-513F5003 has been created and assigned to triage.,
+2026-10-28T16:57:30.965423+00:00,NOTIF-503E15A4,TKT-F71A071F,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-F71A071F has been created and assigned to triage.,
+2026-10-28T16:57:30.973147+00:00,NOTIF-BCF874B0,TKT-CE635BAF,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-CE635BAF has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T16:57:30.982201+00:00,NOTIF-DA184BC8,TKT-C86C863B,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-C86C863B has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T16:57:30.990947+00:00,NOTIF-B06F28C1,TKT-2ADE8420,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-2ADE8420 has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T16:57:31.000349+00:00,NOTIF-BE77EFF4,TKT-98B2CDD6,ESCALATED,customer@example.com,1,SENT,URGENT: Ticket TKT-98B2CDD6 has been escalated to the Fraud & High-Risk Team.,
+2026-10-28T16:57:31.009216+00:00,NOTIF-B775B657,TKT-8B73EA8B,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-8B73EA8B has been created and assigned to triage.,
+2026-10-28T16:58:06.880053+00:00,NOTIF-375273C7,TKT-TC11,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-TC11 has been created and assigned to triage.,
+2026-10-28T16:58:06.881729+00:00,NOTIF-E63C150B,TKT-TC12,CREATED,customer@example.com,1,RETRYING,Banking Support Ticket TKT-TC12 has been created and assigned to triage.,Simulated provider timeout
+2026-10-28T16:58:06.883737+00:00,NOTIF-E63C150B,TKT-TC12,CREATED,customer@example.com,2,RETRYING,Banking Support Ticket TKT-TC12 has been created and assigned to triage.,Simulated provider timeout
+2026-10-28T16:58:06.885085+00:00,NOTIF-E63C150B,TKT-TC12,CREATED,customer@example.com,3,SENT,Banking Support Ticket TKT-TC12 has been created and assigned to triage.,
+2026-10-28T16:58:06.887369+00:00,NOTIF-58585D91,TKT-TC13,CREATED,customer@example.com,1,RETRYING,Banking Support Ticket TKT-TC13 has been created and assigned to triage.,Permanent network down
+2026-10-28T16:58:06.888528+00:00,NOTIF-58585D91,TKT-TC13,CREATED,customer@example.com,2,RETRYING,Banking Support Ticket TKT-TC13 has been created and assigned to triage.,Permanent network down
+2026-10-28T16:58:06.890173+00:00,NOTIF-58585D91,TKT-TC13,CREATED,customer@example.com,3,FAILED,Banking Support Ticket TKT-TC13 has been created and assigned to triage.,Permanent network down
+2026-10-28T16:58:06.896717+00:00,NOTIF-A6C9E80E,TKT-TC20,CREATED,customer@example.com,1,SENT,Banking Support Ticket TKT-TC20 has been created and assigned to triage.,
+2026-10-28T16:58:06.898756+00:00,NOTIF-A6C9E80E,TKT-TC20,CREATED,customer@example.com,0,SKIPPED_DUPLICATE,Banking Support Ticket TKT-TC20 has been created and assigned to triage.,Duplicate notification event suppressed via idempotency key

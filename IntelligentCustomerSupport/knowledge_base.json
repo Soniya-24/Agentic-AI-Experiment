@@ -1,0 +1,56 @@
+[
+  {
+    "article_id": "KB001",
+    "intent": "Account & Access",
+    "title": "NetBanking Account Locked / Password Reset Procedure",
+    "keywords": ["cannot log in", "account locked", "password", "netbanking", "unlock", "forgot password"],
+    "approved": true,
+    "response": "To unlock your digital banking access, navigate to the secure login page, select 'Forgot Password / Unlock Account', and verify your identity using your registered mobile number and Debit Card details. If your access remains blocked after 3 attempts, contact customer assistance at 1800-BANK-SECURE.",
+    "last_reviewed": "2026-10-15"
+  },
+  {
+    "article_id": "KB002",
+    "intent": "Transaction Dispute",
+    "title": "Disputing an Inaccurate or Duplicate POS / Online Charge",
+    "keywords": ["dispute", "double charge", "duplicate transaction", "charged twice", "wrong amount", "merchant dispute"],
+    "approved": true,
+    "response": "To dispute an unauthorized merchant charge or duplicate billing, open the Banking App -> Statements -> Select Transaction -> 'Dispute Charge'. Provide merchant receipt or invoice reference. Provisional credit is reviewed within 3 to 5 business days as per regulatory guidelines.",
+    "last_reviewed": "2026-10-18"
+  },
+  {
+    "article_id": "KB003",
+    "intent": "General Banking Info",
+    "title": "Basic Savings Account Features and Interest Rates",
+    "keywords": ["basic plan", "features", "interest rate", "savings account", "minimum balance", "annual fees"],
+    "approved": true,
+    "response": "The Basic Savings Account features zero minimum balance requirements, free quarterly e-statements, a standard debit card with domestic ATM access, and earns 4.0% annual interest calculated daily and paid quarterly. Premium tiers offer international airport lounge access and reduced foreign exchange markups.",
+    "last_reviewed": "2026-10-01"
+  },
+  {
+    "article_id": "KB004",
+    "intent": "Technical Error",
+    "title": "Mobile App Server Error and Export Statement Glitches",
+    "keywords": ["server error", "export error", "app crash", "statement download failed", "system glitch"],
+    "approved": true,
+    "response": "If the mobile banking application displays an internal server error or fails while generating statement PDFs, ensure you are using the latest version of the application and clear cache. If the issue persists across all accounts, our technical engineering team is notified and investigating platform stability.",
+    "last_reviewed": "2026-10-10"
+  },
+  {
+    "article_id": "KB005",
+    "intent": "KYC & Account Servicing",
+    "title": "Periodic KYC Re-Verification and Address Update",
+    "keywords": ["kyc", "address update", "aadhaar", "pan card", "re-verification", "document upload"],
+    "approved": true,
+    "response": "For periodic KYC update, upload a government-approved identity and address proof (e.g., Aadhaar with OTP verification or Passport) via 'Service Requests' in your Banking Portal. Document verification takes 24 to 48 banking hours.",
+    "last_reviewed": "2026-10-20"
+  },
+  {
+    "article_id": "KB006",
+    "intent": "Card Services",
+    "title": "ATM Cash Dispense Failure / Account Debited",
+    "keywords": ["atm cash not dispensed", "atm failed", "cash deducted", "atm money debited"],
+    "approved": true,
+    "response": "If cash was not dispensed at the ATM but your account was debited, standard auto-reversal occurs within 5 business days (T+5). If funds are not auto-reversed after 5 days, please provide the ATM terminal ID and transaction slip reference to initiate an interbank switch chargeback.",
+    "last_reviewed": "2026-10-22"
+  }
+]

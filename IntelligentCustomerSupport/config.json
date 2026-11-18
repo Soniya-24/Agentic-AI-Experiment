@@ -1,0 +1,17 @@
+{
+  "system_name": "Intelligent Banking Dispute & Fraud Triage System",
+  "domain": "FinTech & Digital Banking",
+  "version": "1.0.0",
+  "sla_minutes": {
+    "P1": 15,
+    "P2": 60,
+    "P3": 240,
+    "P4": 1440
+  },
+  "retry_attempts": 3,
+  "retry_backoff_seconds": [1, 2, 4],
+  "knowledge_match_threshold": 70,
+  "human_review_required_for_high_risk": true,
+  "at_risk_threshold_percentage": 0.20,
+  "authorized_reviewers": ["REV_AGENT_01", "REV_LEAD_02", "REV_FRAUD_OFFICER_03"]
+}
